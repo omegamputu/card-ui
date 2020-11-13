@@ -89,3 +89,25 @@
     height: 185px;
     transition: height 0.3s;
 }
+
+.cart__content:hover .cart__body
+{
+    height: 250px;
+}
+
+.cart__category
+{
+    position: absolute;
+    left: 0;
+    top: -25px;
+
+    height: 25px;
+    padding: 0 15px;
+    background-color: #1868a5;
+
+    color: #ffffff;
+
+    font-size: 11px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
