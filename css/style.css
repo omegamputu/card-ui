@@ -56,3 +56,18 @@
     display: block;
     font-size: 10px;
 }
+
+.cart__thumb
+{
+    height: 235px;
+    overflow: hidden;
+    background-color: #000000;
+    transition: height 0.3s;
+}
+.cart__thumb img
+{
+    display: block;
+    opacity: 1;
+    transition: opacity 0.3s, transform 0.3s;
+    transform: scale(1);
+}
