@@ -71,3 +71,13 @@
     transition: opacity 0.3s, transform 0.3s;
     transform: scale(1);
 }
+
+.cart__content:hover .cart__thumb img
+{
+    opacity: 0.6;
+    transform: scale(1.2);
+}
+.cart__content:hover .cart__thumb
+{
+    height: 90px;
+}
