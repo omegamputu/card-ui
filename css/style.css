@@ -81,3 +81,11 @@
 {
     height: 90px;
 }
+
+.cart__body
+{
+    position: relative;
+    padding: 20px;
+    height: 185px;
+    transition: height 0.3s;
+}
